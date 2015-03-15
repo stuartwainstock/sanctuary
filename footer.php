@@ -11,11 +11,29 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'sanctuary' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'sanctuary' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'sanctuary' ), 'Sanctuary', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
+		<div id="footer-sidebar" class="secondary">
+		<div id="footer-sidebar1">
+		<?php
+		if(is_active_sidebar('footer-sidebar-1')){
+		dynamic_sidebar('footer-sidebar-1');
+		}
+		?>
+		</div>
+		<div id="footer-sidebar2">
+		<?php
+		if(is_active_sidebar('footer-sidebar-2')){
+		dynamic_sidebar('footer-sidebar-2');
+		}
+		?>
+		</div>
+		<div id="footer-sidebar3">
+		<?php
+		if(is_active_sidebar('footer-sidebar-3')){
+		dynamic_sidebar('footer-sidebar-3');
+		}
+		?>
+		</div>
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
