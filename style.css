@@ -1,8 +1,8 @@
 /*
 Theme Name: Sanctuary
-Theme URI: http://underscores.me/
+Theme URI: http://www.stuartwainstock.com/sanctuary/
 Author: Stuart Wainstock
-Author URI: http://stuartwainstock.com/
+Author URI: http://www.stuartwainstock.com/
 Description: Description
 Version: 1.0.0
 License: GNU General Public License v2 or later
@@ -340,7 +340,12 @@ ins {
 big {
 	font-size: 125%;
 }
-
+.site-description{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.site-title{
+	font-family: Arvo, serif;
+}
 /*--------------------------------------------------------------
 3.0 Elements
 --------------------------------------------------------------*/
@@ -524,6 +529,7 @@ a:active {
 	display: block;
 	float: left;
 	width: 100%;
+	font-family: 'Arvo', serif;
 }
 
 .main-navigation ul {
