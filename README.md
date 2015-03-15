@@ -1,0 +1,1 @@
+This is Sanctuary. A collaborative project for the MCAD WordPress class.
